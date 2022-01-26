@@ -1,1 +1,3 @@
-aqui se ubica un archivo ejecutable que contiene un comando para mostrar la ruta actual de mi working directory
+aqui se encuentran algunos archivos ejecutables:
+pwd
+ls
