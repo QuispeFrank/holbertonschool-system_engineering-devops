@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*" | wc -l | cat
+find . -mindepth 1 -name "*" | wc -l | cat
