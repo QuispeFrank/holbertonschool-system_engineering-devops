@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ":" "\n" | uniq -u
+printf "%s\n" {a..z}{a..z} | grep -v "oo" | wc -l
