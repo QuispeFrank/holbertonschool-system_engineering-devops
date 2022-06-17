@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# 4 bad luck, 8 is your chance
+# ------------------------------
+# loops from 1 to 10 and:
+#  1- displays bad luck for the 4th loop iteration
+#  2- displays good luck for the 8th loop iteration
+#  3- displays Best School for the other iterations
+
+index=1
+while [ $index -le 10 ]
+do
+	if [ $index -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $index -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+
+	(( index++ ))
+done
