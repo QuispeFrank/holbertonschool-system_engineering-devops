@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Stop me if you can
+# 67 - Stop me if you can
 # --------------------
-# Bash script that stops 4-to_infinity_and_beyond process.
+# Bash script that stops 7-highlander process.
 
 pkill -f 7-highlander
