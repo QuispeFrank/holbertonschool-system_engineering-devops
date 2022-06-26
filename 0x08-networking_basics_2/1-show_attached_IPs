@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Show attached IPs
+# -------------------
+# Bash script that displays all active IPv4 IPs
+# on the machine it’s executed on.
+
+ifconfig | egrep -o 'inet .*' | cut -d ' ' -f 2
