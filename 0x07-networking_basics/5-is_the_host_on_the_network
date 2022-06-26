@@ -2,7 +2,7 @@
 # Is the host on the network
 # ----------------------------
 # Bash script that pings an IP address passed as an argument.
-# 3equirements:
+# Requirements:
 #  1- Accepts a string as an argument
 #  2- Ping the IP 5 times
 #  3- Displays: 
